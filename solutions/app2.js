@@ -1,10 +1,10 @@
-const setCookie = (name, value) => document.cookie =
+/* const setCookie = (name, value) => document.cookie =
     `${name}=${value}; expires=${new Date((new Date).getTime() + 1000 * 60 * 15)}`;
 
 setCookie('viewed', 5);
 setCookie('uid', 354774631237);
 setCookie('ssid', 'Bx55OWbHJ0Vt_IGIF');
-
+ */
 const cookieHandler = {
     getAll() {
         const obj = new Map(document.cookie.split('; ').map(element => element.split('=')));
